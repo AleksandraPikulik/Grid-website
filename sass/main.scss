@@ -1,0 +1,11 @@
+@import './colors';
+@import './animations';
+
+// font-family: 'Cinzel', serif;
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4rem;
+	color: $white;
+	background-color: $dark;
+}
