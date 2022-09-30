@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+	.cards {
+		&__box {
+			padding: 5em 2em;
+		}
+		&__card {
+			grid-row: 1/2;
+
+			&--one {
+				grid-column: 1/4;
+			}
+			&--two {
+				grid-column: 4/7;
+			}
+			&--three {
+				grid-column: 7/10;
+			}
+		}
+	}
+}
