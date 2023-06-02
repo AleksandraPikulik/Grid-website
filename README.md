@@ -3,7 +3,7 @@
 # GRID-based website design
 
 ## General Information
-Website design for a sample corporate investment company. The site presents information about the company, its services and unique features. In addition, you will find several posts so that the customer can learn more about investing in the przemioty in question. 
+Website design for a sample corporate investment company. The site presents information about the company, its services and unique features. In addition, several posts can be found to help customers learn more about investing in the items.
 
 ## Technologies
 Project is created with:
