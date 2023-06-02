@@ -21,7 +21,21 @@ const classNav = () => {
 
 burger.addEventListener('click', classNav);
 
-navLink.addEventListener('click', classNav);
+// ADD BACKGROUND COLOR TO NAV WITH SCROLLTOP
+
+document.addEventListener('DOMContentLoaded', () => {
+	const navDesktop = document.querySelector('.nav-desktop');
+
+	function addBgc() {
+		if (window.scrollY >= 220) {
+			navDesktop.classList.add('shadow-bgc');
+		} else {
+			navDesktop.classList.remove('shadow-bgc');
+		}
+	}
+
+	window.addEventListener('scroll', addBgc);
+});
 
 //  FOOTER YEAR
 
